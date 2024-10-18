@@ -102,6 +102,7 @@
             Toplama.TabIndex = 14;
             Toplama.Text = "+";
             Toplama.UseVisualStyleBackColor = true;
+            Toplama.Click += Toplama_Click;
             // 
             // Cikarma
             // 
@@ -112,6 +113,7 @@
             Cikarma.TabIndex = 16;
             Cikarma.Text = "-";
             Cikarma.UseVisualStyleBackColor = true;
+            Cikarma.Click += Cikarma_Click;
             // 
             // Carpma
             // 
@@ -122,6 +124,7 @@
             Carpma.TabIndex = 17;
             Carpma.Text = "x";
             Carpma.UseVisualStyleBackColor = true;
+            Carpma.Click += Carpma_Click;
             // 
             // Bolme
             // 
@@ -132,6 +135,7 @@
             Bolme.TabIndex = 18;
             Bolme.Text = "/";
             Bolme.UseVisualStyleBackColor = true;
+            Bolme.Click += Bolme_Click;
             // 
             // label2
             // 
